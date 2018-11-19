@@ -1,0 +1,8 @@
+[13-Jul-2018 23:10:44 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '../../CREDS/database.php' (include_path='.:/usr/local/php70/pear') in /home/alexbeli/public_html/rec-app/index.php on line 3
+[13-Jul-2018 23:23:57 CST6CDT] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'usr3'@'localhost' (using password: YES) in /home/alexbeli/CREDS/database.php:9
+Stack trace:
+#0 /home/alexbeli/CREDS/database.php(9): PDO->__construct('mysql:host=loca...', 'usr3', 'Alfan9x77xMrk')
+#1 /home/alexbeli/public_html/rec-app/index.php(3): require_once('/home/alexbeli/...')
+#2 {main}
+  thrown in /home/alexbeli/CREDS/database.php on line 9
+[18-Jul-2018 00:19:40 CST6CDT] PHP Fatal error:  Call to a member function prepare() on null in /home/alexbeli/public_html/rec-app/process-login.php on line 10
